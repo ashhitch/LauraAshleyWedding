@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { CountDownComponent } from './count-down/count-down.component';
+import { CountDown } from 'angular2-simple-countdown/countdown';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CountDownComponent,
+    CountDown
   ],
   imports: [
     BrowserModule,
